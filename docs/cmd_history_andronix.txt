@@ -1,0 +1,113 @@
+ 1650  vncserver-start
+ 1651  exit
+ 1652  vncserver-start
+ 1653  ls
+ 1654  cd Projs/
+ 1655  ls
+ 1656  git clone https://github.com/esraels/tech_test.git
+ 1657  ls
+ 1658  cd tech_test/
+ 1659  ls
+ 1660  git log
+ 1661  git log --oneline
+ 1662  hostnamectl
+ 1663  lsb_release
+ 1664  uname -srm
+ 1665  sudo apt install libmiral-dev mir-graphics-drivers-desktop
+ 1666  cmake
+ 1667  ls
+ 1668  git branch
+ 1669  git branch main_m
+ 1670  ls
+ 1671  git branch
+ 1672  git switch main_m
+ 1673  git branch
+ 1674  git log
+ 1675  ls
+ 1676  micro main.cpp
+ 1677  ls
+ 1678  micro CMakeLists.txt
+ 1679  cmake -B build
+ 1680  cmake --build build
+ 1681  sudo apt install pkg-config
+ 1682  cmake --build build
+ 1683  cmake -B build
+ 1684  cmake --build build
+ 1685  apt list --installed | grep i- "libmiral"
+ 1686  sudo apt install libmiral-dev
+ 1687  micro main.cpp 
+ 1688  cmake --build build
+ 1689  micro main.cpp 
+ 1690  cmake --build build
+ 1691  clear
+ 1692  cmake --build build
+ 1693  micro main.cpp 
+ 1694  cmake --build build
+ 1695  micro main.cpp 
+ 1696  cmake --build build
+ 1697  micro main.cpp 
+ 1698  cmake --build build
+ 1699  ls
+ 1700  ls build/
+ 1701  history
+ 1702  more --help
+ 1703  history | more +1650 
+ 1704  more --help
+ 1705  ls
+ 1706  mkdir docs
+ 1707  ls
+ 1708  history > docs/cmd_history_andronix.txt
+ 1709  more docs/cmd_history_andronix.txt 
+ 1710  history | more +941 
+ 1711  history | more +941 > docs/cmd_history_andronix.txt 
+ 1712  more docs/cmd_history_andronix.txt 
+ 1713  cat docs/cmd_history_andronix.txt 
+ 1714  cat --help
+ 1715  history | more +910 > docs/cmd_history_andronix.txt 
+ 1716  more docs/cmd_history_andronix.txt 
+ 1717  micro docs/cmd_history_andronix.txt 
+ 1718  more +910 docs/cmd_history_andronix.txt 
+ 1719  more +910 docs/cmd_history_andronix.txt > docs/cmd_history_andronix.txt 
+ 1720  more docs/cmd_history_andronix.txt 
+ 1721  micro docs/cmd_history_andronix.txt 
+ 1722  history > docs/cmd_history_andronix.txt 
+ 1723  more docs/cmd_history_andronix.txt 
+ 1724  micro docs/cmd_history_andronix.txt 
+ 1725  more +929 docs/cmd_history_andronix.txt 
+ 1726  more +929 docs/cmd_history_andronix.txt > docs/test.txt
+ 1727  more docs/test.txt 
+ 1728  micro docs/test.txt 
+ 1729  git status
+ 1730  ls
+ 1731  git branch
+ 1732  git add main.cpp 
+ 1733  git add CMakeLists.txt 
+ 1734  git commit -m "Added buildable code for minimal mir compositor."
+ 1735  ls build/
+ 1736  micro .gitignore
+ 1737  git status
+ 1738  micro .git
+ 1739  micro .gitignore 
+ 1740  mkdir out
+ 1741  cp build/compositor_app out
+ 1742  ls out/
+ 1743  git status
+ 1744  ls docs/
+ 1745  git add out/compositor_app 
+ 1746  git status
+ 1747  git commit -m "Added output app of the build"
+ 1748  git add .gitignore 
+ 1749  git commit -m "Added .gitignore"
+ 1750  git status
+ 1751  history
+ 1752  history > docs/test.txt 
+ 1753  more test.
+ 1754  more docs/test.txt 
+ 1755  micro docs/test.txt 
+ 1756  more +900 docs/test.txt > docs/cmd_history_andronix.txt 
+ 1757  micro docs/cmd_history_andronix.txt 
+ 1758  git status
+ 1759  git push
+ 1760  git remote -v
+ 1761  git push -u origin main_m
+ 1762  history > test.txt
